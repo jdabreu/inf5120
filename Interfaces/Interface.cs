@@ -36,7 +36,7 @@ namespace Interfaces
 
 
 
-    class Kryptonian
+    class Kryptonian : Animal
     {
 
 
@@ -57,7 +57,7 @@ namespace Interfaces
 
 
 
-      class Superman : Animal, iFlyer
+      class Superman : Kryptonian, iFlyer
     {
 
         public void takeOff()
